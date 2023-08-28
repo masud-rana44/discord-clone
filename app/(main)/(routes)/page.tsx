@@ -1,12 +1,9 @@
-import { Button } from "@/components/ui/button";
+import { UserButton } from "@clerk/nextjs/app-beta";
 
 export default function Home() {
   return (
-    <>
-      <p className="text-3xl text-indigo-700 font-bold">Hello Discord clone</p>
-      <Button variant="default" size="lg">
-        Click Me
-      </Button>
-    </>
+    <div>
+      <UserButton afterSignOutUrl="/" />
+    </div>
   );
 }
