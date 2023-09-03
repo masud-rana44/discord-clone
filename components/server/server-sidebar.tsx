@@ -7,10 +7,10 @@ import { currentProfile } from "@/lib/current-profile";
 import { db } from "@/lib/db";
 
 import { ServerHeader } from "./server-header";
-import { ServerSearch } from "./ServerSearch";
+import { ServerSearch } from "./server-search";
 import { Separator } from "../ui/separator";
 import { ServerSection } from "./server-section";
-import { ServerChannel } from "./ServerChannel";
+import { ServerChannel } from "./server-channel";
 import { ServerMember } from "./server-member";
 
 interface ServerSidebarProps {
