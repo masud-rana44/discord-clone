@@ -10,18 +10,29 @@ import {
   PopoverContent,
   PopoverTrigger,
 } from "@/components/ui/popover";
+import { cn } from "@/lib/utils";
 
 interface EmojiPickerProps {
   onChange: (value: string) => void;
+  size: number;
+  isWorking: boolean;
 }
 
-export const EmojiPicker = ({ onChange }: EmojiPickerProps) => {
+export const EmojiPicker = ({
+  onChange,
+  size,
+  isWorking,
+}: EmojiPickerProps) => {
   const { resolvedTheme } = useTheme();
 
   return (
     <Popover>
       <PopoverTrigger>
-        <Smile className="text-zinc-500 transition hover:text-zinc-600 dark:text-zinc-400 dark:hover:text-zinc-300" />
+        <Smile
+          className={`h-${size} w-${size} ${
+            isWorking && "cursor-not-allowed opacity-30"
+          }  text-zinc-500 transition hover:text-zinc-600 dark:text-zinc-400 dark:hover:text-zinc-300`}
+        />
       </PopoverTrigger>
       <PopoverContent
         side="right"

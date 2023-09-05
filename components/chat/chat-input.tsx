@@ -5,7 +5,7 @@ import axios from "axios";
 import qs from "query-string";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { Plus, Smile } from "lucide-react";
+import { Plus } from "lucide-react";
 import { useRouter } from "next/navigation";
 
 import { Form, FormControl, FormField, FormItem } from "@/components/ui/form";
@@ -72,6 +72,7 @@ export const ChatInput = ({ apiUrl, query, name, type }: ChatInputProps) => {
                   </button>
                   <Input
                     disabled={isLoading}
+                    autoComplete="off"
                     className="border-0 border-none bg-zinc-200/90 px-14 py-6 text-zinc-600 focus-visible:ring-0 focus-visible:ring-offset-0 dark:bg-zinc-700/75 dark:text-zinc-200"
                     placeholder={`Message ${
                       type === "conversation" ? name : "#" + name
@@ -80,6 +81,8 @@ export const ChatInput = ({ apiUrl, query, name, type }: ChatInputProps) => {
                   />
                   <div className="absolute right-8 top-7">
                     <EmojiPicker
+                      size={6}
+                      isWorking={isLoading}
                       onChange={(emoji: string) =>
                         field.onChange(`${field.value}${emoji}`)
                       }

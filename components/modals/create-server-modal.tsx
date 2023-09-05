@@ -24,7 +24,7 @@ import {
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
-import FileUpload from "@/components/file-upload";
+import { FileUpload } from "@/components/file-upload";
 import { useModal } from "@/hooks/use-modal-store";
 
 const formSchema = z.object({
@@ -114,6 +114,7 @@ export const CreateServerModal = () => {
                     <FormControl>
                       <Input
                         disabled={isLoading}
+                        autoComplete="off"
                         className="border-0 bg-zinc-300/50 text-black focus-visible:ring-0 focus-visible:ring-offset-0"
                         placeholder="Enter server name"
                         {...field}

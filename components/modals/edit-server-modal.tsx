@@ -123,6 +123,7 @@ export const EditServerModal = () => {
                     <FormControl>
                       <Input
                         disabled={isLoading}
+                        autoComplete="off"
                         className="border-0 bg-zinc-300/50 text-black focus-visible:ring-0 focus-visible:ring-offset-0"
                         placeholder="Enter server name"
                         {...field}
