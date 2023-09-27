@@ -27,8 +27,8 @@ Discord Clone with Next.js 13, React.js, Socket.io, Tailwind, Prisma, PostgresSQ
 
 You can access using the following demo account:
 
-- **Email**: temp@example.com
-- **Password**: test1234
+- <span style="color:red; font-weight:bold">**Email**: tuser4818@gmail.com</span>
+- <span style="color:red; font-weight:bold">**Password**:</span> #temp1234
 
 ## 🛠️ Installation Steps:
 
