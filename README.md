@@ -1,20 +1,9 @@
 <h1 align="center">
 Discord Clone with Next.js 13, React.js, Socket.io, Tailwind, Prisma, PostgresSQL</h1>
 
-<p align="center"><img src="./src/data/screenshort/1.PNG" alt="Discord homepage"></p>
+<p align="center"><img src="./data/screenshort/1.PNG" alt="Discord homepage"></p>
 
 <p>This is a repository for a Full Stack Discord Clone with Next.js 13, React.js, Socket.io, Tailwind, Prisma, PostgresSQL.</p>
-
-## 🚀 Live Demo
-
-[https://discord-clone-production-8657.up.railway.app/](https://discord-clone-production-8657.up.railway.app/)
-
-## 🎮 Demo Account
-
-You can access using the following demo account:
-
-- **Email**: temp@example.com
-- **Password**: test1234
 
 ## 📝 Features
 
@@ -29,6 +18,17 @@ You can access using the following demo account:
 - Light/Dark mode
 - Full responsivity and mobile UI
 - ORM using Prisma
+
+## 🚀 Live Demo
+
+[https://discord-clone-production-8657.up.railway.app/](https://discord-clone-production-8657.up.railway.app/)
+
+## 🎮 Demo Account
+
+You can access using the following demo account:
+
+- **Email**: temp@example.com
+- **Password**: test1234
 
 ## 🛠️ Installation Steps:
 
@@ -80,8 +80,8 @@ npm run dev
 
 ### screenshots
 
-<img src="./src/data/screenshort/2.PNG" alt="Airbnb homepage">
-<img src="./src/data/screenshort/3.PNG" alt="Airbnb homepage">
+<img src="./data/screenshort/2.PNG" alt="Airbnb homepage">
+<img src="./data/screenshort/3.PNG" alt="Airbnb homepage">
 
 ## 💻 Technology Used
 
