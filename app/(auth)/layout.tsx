@@ -1,7 +1,12 @@
-function layout({ children }: { children: React.ReactNode }) {
-  return (
-    <div className="flex h-full items-center justify-center">{children}</div>
-  );
-}
+import { DemoAccount } from "@/components/demo-account";
 
-export default layout;
+const AuthLayout = ({ children }: { children: React.ReactNode }) => {
+  return (
+    <div className="flex h-full flex-col items-center justify-center space-y-4">
+      <DemoAccount />
+      <div>{children}</div>
+    </div>
+  );
+};
+
+export default AuthLayout;

@@ -34,7 +34,7 @@ git clone https://github.com/masud-rana44/discord-clone.git
 <p>2. Install dependencies </p>
 
 ```
-npm i
+npm install
 ```
 
 <p>3. Setup .env file </p>
