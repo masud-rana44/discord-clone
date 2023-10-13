@@ -1,9 +1,9 @@
 <h1 align="center">
-Discord Clone with Next.js 13, React.js, Socket.io, Tailwind, Prisma, PostgresSQL</h1>
+Team Chat Application with Next.js 13, React.js, Socket.io, Tailwind, Prisma, PostgresSQL</h1>
 
 <p align="center"><img src="./data/screenshort/1.PNG" alt="Discord homepage"></p>
 
-<p>This is a repository for a Full Stack Discord Clone with Next.js 13, React.js, Socket.io, Tailwind, Prisma, PostgresSQL.</p>
+<p>This is a team chat application. Here user can create, manage groups with text, audio and video channel supports. This application is build with Next.js 13, React.js, Socket.io, Tailwind, Prisma, PostgresSQL and many more technologies.</p>
 
 ## 📝 Features
 
@@ -22,13 +22,6 @@ Discord Clone with Next.js 13, React.js, Socket.io, Tailwind, Prisma, PostgresSQ
 ## 🚀 Live Demo
 
 [https://discord-clone-production-8657.up.railway.app/](https://discord-clone-production-8657.up.railway.app/)
-
-## 🎮 Demo Account
-
-You can access using the following demo account:
-
-- <span style="color:red; font-weight:bold">**Email**: tuser4818@gmail.com</span>
-- <span style="color:red; font-weight:bold">**Password**:</span> #temp1234
 
 ## 🛠️ Installation Steps:
 
