@@ -20,6 +20,7 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { useModal } from "@/hooks/use-modal-store";
 import { ServerWithMembersWithProfiles } from "@/types";
+import { useEffect, useRef } from "react";
 
 interface ServerHeaderProps {
   server: ServerWithMembersWithProfiles;
@@ -29,13 +30,16 @@ interface ServerHeaderProps {
 export const ServerHeader = ({ server, role }: ServerHeaderProps) => {
   const { onOpen } = useModal();
 
+
   const isAdmin = role === MemberRole.ADMIN;
   const isModerator = isAdmin || role === MemberRole.MODERATOR;
 
   return (
     <DropdownMenu>
       <DropdownMenuTrigger className="" asChild>
-        <button className="text-md flex h-12 w-full items-center border-b-2 border-neutral-200 px-3 font-semibold transition hover:bg-zinc-700/10 dark:border-neutral-800 dark:hover:bg-zinc-700/50">
+        <button
+          className="text-md flex h-12 w-full items-center border-b-2 border-neutral-200 px-3 font-semibold transition hover:bg-zinc-700/10 dark:border-neutral-800 dark:hover:bg-zinc-700/50"
+        >
           {server.name}
           <ChevronDown className="ml-auto h-5 w-5" />
         </button>
